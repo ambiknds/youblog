@@ -1,4 +1,4 @@
-import { Container } from "../container/Container";
+import Container from "../container/Container";
 import Logo from "../Logo";
 import { Link, useNavigate } from "react-router-dom";
 import LogoutBtn from "./LogoutBtn";

@@ -1,14 +1,12 @@
 import { useState, useEffect } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import { Outlet } from 'react-router-dom'
 import { useDispatch } from "react-redux";
 import { login, logout } from "./store/authSlice";
-import Header from "./components/Header/Header"
+import Header from "./components/header/Header"
 import Footer from "./components/footer/Footer"
 import authService from './appwrite/auth'
-import Logo from "./components/Logo"
+// import Logo from "./components/Logo"
 
 function App() {
   const [loading, setLoading] = useState(true);
